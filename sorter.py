@@ -7,8 +7,9 @@ def get_input():
     return data
 
 
-def sorter(data):
-   data.sort()
-   return data
+
+   
 data=get_input()
-print(sorter(data))
+print("before",data)
+data.sort()
+print("Sorted values ",data)
